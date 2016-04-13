@@ -21,6 +21,8 @@
 
 
 PRODUCT_COPY_FILES += \
+    device/moto/shamu/configs/init.qcom.post_boot.sh:system/bin/init.qcom.post_boot.sh \
+    device/moto/shamu/configs/96-postboot.sh:system/addon.d/96-postboot.sh \
     device/moto/shamu/init.shamu.rc:root/init.shamu.rc \
     device/moto/shamu/init.shamu.power.rc:root/init.shamu.power.rc \
     device/moto/shamu/init.shamu.usb.rc:root/init.shamu.usb.rc \
